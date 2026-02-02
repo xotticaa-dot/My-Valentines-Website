@@ -1,0 +1,51 @@
+/* Global styles */
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background: #fff0f0;
+color: #333;
+display: flex;
+flex-direction: column;
+height: 100vh;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+/* Container */
+.container {
+max-width: 400px;
+padding: 20px;
+}
+
+/* Buttons */
+button {
+margin: 10px;
+padding: 15px 30px;
+font-size: 1.2rem;
+border: none;
+border-radius: 8px;
+cursor: pointer;
+transition: transform .2s ease;
+}
+
+#yesBtn {
+background: #ff4d4d;
+color: white;
+}
+
+#noBtn {
+background: #555;
+color: white;
+}
+
+button:hover {
+transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+position: fixed;
+bottom: 10px;
+font-size: 0.8rem;
+}
